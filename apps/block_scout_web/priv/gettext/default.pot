@@ -557,12 +557,12 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:78
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:113
-msgid "ETH"
+msgid "TTN"
 msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
-msgid "ETH RPC API Documentation"
+msgid "TTN RPC API Documentation"
 msgstr ""
 
 #, elixir-format
@@ -637,7 +637,7 @@ msgstr ""
 #: lib/block_scout_web/templates/transaction/overview.html.eex:205
 #: lib/block_scout_web/templates/transaction/overview.html.eex:258
 #: lib/block_scout_web/views/wei_helpers.ex:78
-msgid "Ether"
+msgid "Titan"
 msgstr ""
 
 #, elixir-format

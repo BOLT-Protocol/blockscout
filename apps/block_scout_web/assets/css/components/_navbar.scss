@@ -263,6 +263,9 @@ $navbar-logo-width: auto !default;
 }
 
 .navbar-logo {
+  transform: scale(3);
+  overflow: hidden;
+  margin-left: 30px;
   height: $navbar-logo-height;
   width: $navbar-logo-width;
 }

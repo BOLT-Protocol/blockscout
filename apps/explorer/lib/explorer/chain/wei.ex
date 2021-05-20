@@ -1,6 +1,6 @@
 defmodule Explorer.Chain.Wei do
   @moduledoc """
-  The smallest fractional unit of Titan. Using wei instead of ether allows code to do integer match instead of using
+  The smallest fractional unit of TBT. Using wei instead of ether allows code to do integer match instead of using
   floats.
 
   All values represented by the `Wei` struct are assumed to measured in the base unit of wei.
@@ -91,7 +91,7 @@ defmodule Explorer.Chain.Wei do
   end
 
   @typedoc """
-  Titan is the default unit Ethereum and its side chains are measured in when displaying values to humans.
+  TBT is the default unit TideBit and its side chains are measured in when displaying values to humans.
 
   10<sup>18</sup> wei is 1 ether.
   """
@@ -110,7 +110,7 @@ defmodule Explorer.Chain.Wei do
   @type unit :: :wei | :gwei | :ether
 
   @typedoc """
-  The smallest fractional unit of Titan.
+  The smallest fractional unit of TBT.
   """
   @type wei :: Decimal.t()
 

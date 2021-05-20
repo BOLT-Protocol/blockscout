@@ -4,13 +4,13 @@
     <div class="row footer-logo-row">
       <div class="col-12 d-flex justify-content-center">
         <%= link to: webapp_url(@conn), class: "footer-brand" do %>
-          <img class="footer-logo" src="<%= logo_footer() %>" alt="<%= subnetwork_title() %>" />
+          <img width="640" height="320" class="footer-logo" src="<%= logo_footer() %>" alt="<%= subnetwork_title() %>" />
         <% end %>
       </div>
     </div>
     <div class="row footer-logo-row">
       <div class="col-12 d-flex justify-content-center">
-        Copyright © 2021 TitanChain. All rights reserved.
+        Copyright © 2021 TideBit. All rights reserved.
       </div>
     </div>
   </div>

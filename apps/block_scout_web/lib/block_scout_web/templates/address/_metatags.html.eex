@@ -1,14 +1,14 @@
 <%= if assigns[:address] do %>
   <title>
     <%= gettext(
-          "TITAN Explorer - %{address}",
+          "TideBit Explorer - %{address}",
           address: BlockScoutWeb.AddressView.address_page_title(@address)
         ) %>
   </title>
-  <meta name="description" content="TITAN Explorer provides analytics data, API, and Smart Contract tools for the TitanChain">
+  <meta name="description" content="TideBit Explorer provides analytics data, API, and Smart Contract tools for the TideBit">
   <meta name="keywords" content="<%= BlockScoutWeb.AddressView.address_page_title(@address) <> ", " <> Explorer.coin() <> ", "<> LayoutView.network_title() %>">
 <% else %>
   <title>
-    TITAN Explorer - Top Accounts
+    TideBit Explorer - Top Accounts
   </title>
 <% end %>

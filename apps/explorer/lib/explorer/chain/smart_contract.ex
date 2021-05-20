@@ -130,9 +130,9 @@ defmodule Explorer.Chain.SmartContract do
   @typedoc """
   * `"pure"` - [specified to not read blockchain state](https://solidity.readthedocs.io/en/develop/contracts.html#pure-functions).
   * `"view"` - [specified to not modify the blockchain state](https://solidity.readthedocs.io/en/develop/contracts.html#view-functions).
-  * `"nonpayable"` - function does not accept Titan.
-    **NOTE**: Sending non-zero Titan to non-payable function will revert the transaction.
-  * `"payable"` - function accepts Titan.
+  * `"nonpayable"` - function does not accept TideBit.
+    **NOTE**: Sending non-zero TideBit to non-payable function will revert the transaction.
+  * `"payable"` - function accepts TideBit.
   """
   @type state_mutability :: String.t()
 

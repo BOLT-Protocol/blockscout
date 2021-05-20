@@ -1,7 +1,7 @@
 <title>
-  TITAN Explorer
+  TideBit Explorer
 </title>
 <%= if assigns[:token] do %>
   <meta name="keywords" content="<%= "#{BlockScoutWeb.LayoutView.subnetwork_title()} #{@token.symbol} staking app" %>">
-  <meta name="description" content="TITAN Explorer provides analytics data, API, and Smart Contract tools for the TitanChain">
+  <meta name="description" content="TideBit Explorer provides analytics data, API, and Smart Contract tools for the TideBit">
 <% end %>

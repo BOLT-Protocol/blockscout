@@ -1,5 +1,5 @@
 <title>
-  TITAN Explorer - API
+  TideBit Explorer - API
 </title>
-<meta name="description" content="TITAN Explorer provides analytics data, API, and Smart Contract tools for the TitanChain">
+<meta name="description" content="TideBit Explorer provides analytics data, API, and Smart Contract tools for the TideBit">
 <meta name="keywords" content="API, Analytics, Balance, transactions, logs, events, internal transactions, <%= LayoutView.subnetwork_title() %>">

@@ -1,11 +1,11 @@
 <%= if assigns[:block] do %>
   <title>
     <%= gettext(
-          "TITAN Explorer - Block %{block_number}",
+          "TideBit Explorer - Block %{block_number}",
           block_number: @block.number,
         ) %>
   </title>
-  <meta name="description" content="TITAN Explorer provides analytics data, API, and Smart Contract tools for the TitanChain">
+  <meta name="description" content="TideBit Explorer provides analytics data, API, and Smart Contract tools for the TideBit">
   <meta name="keywords" content="<%= "#{@block.number}, #{BlockScoutWeb.LayoutView.subnetwork_title()} #{@block.number}" %>">
 <% else %>
   <%= BlockScoutWeb.LayoutView.render("_default_title.html") %>

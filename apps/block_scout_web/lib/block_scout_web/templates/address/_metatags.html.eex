@@ -2,7 +2,7 @@
   <title>
     <%= gettext(
           "TideBit Explorer - %{address}",
-          address: BlockScoutWeb.AddressView.address_page_title(@address),
+          address: BlockScoutWeb.AddressView.address_page_title(@address)
         ) %>
   </title>
   <meta name="description" content="<%= gettext "View the account balance, transactions, and other data for %{address} on the %{network}", address: to_string(@address), network: LayoutView.network_title() %>">

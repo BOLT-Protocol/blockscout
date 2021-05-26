@@ -635,7 +635,7 @@ msgstr "TBT RPC"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:258
 #: lib/block_scout_web/views/wei_helpers.ex:78
 msgid "Ether"
-msgstr "TideBit"
+msgstr "TBT"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:211

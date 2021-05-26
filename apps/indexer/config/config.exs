@@ -35,7 +35,8 @@ config :indexer,
     String.to_integer(System.get_env("TOKEN_METADATA_UPDATE_INTERVAL") || "#{2 * 24 * 60 * 60}"),
   # bytes
   # memory_limit: 1 <<< 30,
-  memory_limit: 6442450944, # 6 * 1024 * 1024 * 1024
+  # https://docs.blockscout.com/for-users/faqs/how-do-i-update-memory-consumption-to-fix-indexer-memory-errors
+  memory_limit: 10 <<< 30, # 10.7 G
   first_block: System.get_env("FIRST_BLOCK") || "0",
   last_block: System.get_env("LAST_BLOCK") || ""
 

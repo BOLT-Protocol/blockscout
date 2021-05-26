@@ -24,7 +24,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_metatags.html.eex:3
-msgid "%{address} - %{subnetwork} Explorer"
+msgid "TideBit Explorer - %{address}"
 msgstr ""
 
 #, elixir-format
@@ -50,12 +50,9 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:2
-msgid "%{subnetwork} %{network} Explorer"
-msgstr ""
-
-#, elixir-format
 #: lib/block_scout_web/templates/layout/_default_title.html.eex:2
-msgid "%{subnetwork} Explorer - BlockScout"
+#: lib/block_scout_web/templates/stakes/_metatags.html.eex:2
+msgid "TideBit Explorer"
 msgstr ""
 
 #, elixir-format
@@ -98,12 +95,12 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:4
-msgid "API endpoints for the %{subnetwork}"
+msgid "API endpoints for the TideBit"
 msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:2
-msgid "API for the %{subnetwork} - BlockScout"
+msgid "TideBit Explorer - API"
 msgstr ""
 
 #, elixir-format
@@ -192,7 +189,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/block/_metatags.html.eex:3
-msgid "Block %{block_number} - %{subnetwork} Explorer"
+msgid "TideBit Explorer - Block %{block_number}"
 msgstr ""
 
 #, elixir-format
@@ -233,7 +230,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:4
 msgid "BlockScout provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
-msgstr ""
+msgstr "TideBit provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
 
 #, elixir-format
 #: lib/block_scout_web/templates/chain/show.html.eex:180
@@ -250,7 +247,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:20
 msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr ""
+msgstr "TideBit is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for TideBit Networks."
 
 #, elixir-format
 #: lib/block_scout_web/views/internal_transaction_view.ex:21
@@ -558,12 +555,12 @@ msgstr ""
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:78
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:113
 msgid "ETH"
-msgstr ""
+msgstr "TBT"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
 msgid "ETH RPC API Documentation"
-msgstr ""
+msgstr "TBT RPC API Documentation"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_contract/index.html.eex:48
@@ -626,7 +623,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:140
 msgid "Eth RPC"
-msgstr ""
+msgstr "TBT RPC"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_balance_card.html.eex:18
@@ -638,7 +635,7 @@ msgstr ""
 #: lib/block_scout_web/templates/transaction/overview.html.eex:258
 #: lib/block_scout_web/views/wei_helpers.ex:78
 msgid "Ether"
-msgstr ""
+msgstr "TideBit"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:211
@@ -902,7 +899,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_metatags.html.eex:13
-msgid "Top Accounts - %{subnetwork} Explorer"
+msgid "TideBit Explorer - Top Accounts"
 msgstr ""
 
 #, elixir-format
@@ -1412,12 +1409,12 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/index.html.eex:6
 msgid "This API is provided for developers transitioning their applications from Etherscan to BlockScout. It supports GET and POST requests."
-msgstr ""
+msgstr "This API is provided for developers transitioning their applications from Etherscan to TideBit. It supports GET and POST requests."
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:7
 msgid "This API is provided to support some rpc methods in the exact format specified for ethereum nodes, which can be found "
-msgstr ""
+msgstr "This API is provided to support some rpc methods in the exact format specified for TideBit nodes, which can be found "
 
 #, elixir-format
 #: lib/block_scout_web/views/block_transaction_view.ex:11
@@ -1427,7 +1424,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:10
 msgid "This is useful to allow sending requests to blockscout without having to change anything about the request."
-msgstr ""
+msgstr "This is useful to allow sending requests to TideBit without having to change anything about the request."
 
 #, elixir-format
 #: lib/block_scout_web/templates/transaction/_decoded_input.html.eex:19
@@ -1464,7 +1461,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/transaction/_metatags.html.eex:3
-msgid "Transaction %{transaction} - %{subnetwork} Explorer"
+msgid "TideBit Explorer - Transaction %{transaction}"
 msgstr ""
 
 #, elixir-format
@@ -1627,16 +1624,6 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/address/_metatags.html.eex:9
 msgid "View the account balance, transactions, and other data for %{address} on the %{network}"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/block/_metatags.html.eex:10
-msgid "View the transactions, token transfers, and uncles for block number %{block_number}"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/transaction/_metatags.html.eex:10
-msgid "View transaction %{transaction} on %{subnetwork}"
 msgstr ""
 
 #, elixir-format
@@ -2001,11 +1988,6 @@ msgid " Working Stake Amount is an amount which is accounted and working at the 
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/stakes/_metatags.html.eex:2
-msgid "%{subnetwork} Staking DApp - BlockScout"
-msgstr ""
-
-#, elixir-format
 #: lib/block_scout_web/templates/stakes/_rows.html.eex:26
 #: lib/block_scout_web/templates/stakes/_stakes_progress.html.eex:27
 msgid "(inactive pool)"
@@ -2132,11 +2114,6 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/stakes/_stakes_modal_move.html.eex:36
 msgid "Current Stake:"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/stakes/_metatags.html.eex:6
-msgid "DApp for Staking %{symbol} tokens"
 msgstr ""
 
 #, elixir-format
@@ -2607,7 +2584,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_contract/index.html.eex:18
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:9
 msgid "Contract is not verified. However, we found a verified contract with the same bytecode in Blockscout DB"
-msgstr ""
+msgstr "Contract is not verified. However, we found a verified contract with the same bytecode in TideBit DB"
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:162

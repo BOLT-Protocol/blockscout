@@ -1,13 +1,12 @@
 <%= if assigns[:transaction] do %>
   <title>
     <%= gettext(
-          "Transaction %{transaction} - %{subnetwork} Explorer",
-          transaction: to_string(@transaction.hash),
-          subnetwork: BlockScoutWeb.LayoutView.subnetwork_title()
+          "TideBit Explorer - Transaction %{transaction}",
+          transaction: to_string(@transaction.hash)
         ) %>
   </title>
 
-  <meta name="description" content="<%= gettext "View transaction %{transaction} on %{subnetwork}", transaction: to_string(@transaction.hash), subnetwork: BlockScoutWeb.LayoutView.subnetwork_title() %>">
+  <meta name="description" content="TideBit Explorer provides analytics data, API, and Smart Contract tools for the TideBit">
   <meta name="keywords" content="<%= gettext "Transaction %{transaction}, %{subnetwork} %{transaction}", transaction: to_string(@transaction.hash), subnetwork: BlockScoutWeb.LayoutView.subnetwork_title() %>">
 <% else %>
   <%= BlockScoutWeb.LayoutView.render("_default_title.html") %>

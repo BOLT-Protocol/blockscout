@@ -245,11 +245,6 @@ msgid "Blocks Indexed"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:20
-msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr ""
-
-#, elixir-format
 #: lib/block_scout_web/views/internal_transaction_view.ex:21
 msgid "Call"
 msgstr ""
@@ -269,11 +264,6 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_network_selector.html.eex:11
 msgid "Change Network"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:39
-msgid "Chat"
 msgstr ""
 
 #, elixir-format
@@ -387,11 +377,6 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/address_contract/index.html.eex:100
 msgid "Contracts that self destruct in their constructors have no contract code published and cannot be verified."
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:38
-msgid "Contribute"
 msgstr ""
 
 #, elixir-format
@@ -628,7 +613,6 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/address/_balance_card.html.eex:18
 #: lib/block_scout_web/templates/internal_transaction/_tile.html.eex:20
-#: lib/block_scout_web/templates/layout/app.html.eex:33
 #: lib/block_scout_web/templates/transaction/_pending_tile.html.eex:20
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:29
 #: lib/block_scout_web/templates/transaction/overview.html.eex:205
@@ -717,11 +701,6 @@ msgid "Genesis Block"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:22
-msgid "Github"
-msgstr ""
-
-#, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:130
 msgid "GraphQL"
 msgstr ""
@@ -777,11 +756,6 @@ msgstr ""
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:32
 #: lib/block_scout_web/templates/transaction/overview.html.eex:108
 msgid "TX Fee"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:28
-msgid "Telegram"
 msgstr ""
 
 #, elixir-format
@@ -898,7 +872,7 @@ msgid "Token Transfers"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address/_metatags.html.eex:13
+#: lib/block_scout_web/templates/address/_metatags.html.eex:12
 msgid "TideBit Explorer - Top Accounts"
 msgstr ""
 
@@ -1023,11 +997,6 @@ msgid "Log Data"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:47
-msgid "Main Networks"
-msgstr ""
-
-#, elixir-format
 #: lib/block_scout_web/templates/layout/_network_selector.html.eex:22
 msgid "Mainnet"
 msgstr ""
@@ -1114,11 +1083,6 @@ msgstr ""
 #: lib/block_scout_web/templates/address_contract/index.html.eex:42
 #: lib/block_scout_web/templates/address_contract_verification/new.html.eex:114
 msgid "Optimization runs"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:71
-msgid "Other Explorers"
 msgstr ""
 
 #, elixir-format
@@ -1247,13 +1211,13 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_logs/index.html.eex:14
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:217
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:261
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:219
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:263
 msgid "Search"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:211
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:213
 msgid "Search by address, token symbol name, transaction hash, or block number"
 msgstr ""
 
@@ -1338,21 +1302,6 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/views/internal_transaction_view.ex:24
 msgid "Static Call"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:37
-msgid "Submit an Issue"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:40
-msgid "Support"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:60
-msgid "Test Networks"
 msgstr ""
 
 #, elixir-format
@@ -1465,7 +1414,7 @@ msgid "TideBit Explorer - Transaction %{transaction}"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/transaction/_metatags.html.eex:11
+#: lib/block_scout_web/templates/transaction/_metatags.html.eex:10
 msgid "Transaction %{transaction}, %{subnetwork} %{transaction}"
 msgstr ""
 
@@ -1494,11 +1443,6 @@ msgstr ""
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:40
 #: lib/block_scout_web/templates/api_docs/_eth_rpc_item.html.eex:47
 msgid "Try it out"
-msgstr ""
-
-#, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:25
-msgid "Twitter"
 msgstr ""
 
 #, elixir-format
@@ -1590,7 +1534,7 @@ msgid "Verify the contract "
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_footer.html.eex:86
+#: lib/block_scout_web/templates/layout/_footer.html.eex:23
 msgid "Version"
 msgstr ""
 
@@ -1622,7 +1566,7 @@ msgid "View More Transfers"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address/_metatags.html.eex:9
+#: lib/block_scout_web/templates/address/_metatags.html.eex:8
 msgid "View the account balance, transactions, and other data for %{address} on the %{network}"
 msgstr ""
 
@@ -1939,7 +1883,7 @@ msgid "Copy Raw Trace"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:215
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:217
 msgid "Search by address, token symbol, name, transaction hash, or block number"
 msgstr ""
 
@@ -2592,7 +2536,7 @@ msgid "Staking"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:254
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:256
 msgid "Press / and focus will be moved to the search field"
 msgstr ""
 
@@ -2700,4 +2644,9 @@ msgstr ""
 #:
 #: lib/block_scout_web/templates/common_components/_minimal_proxy_pattern.html.eex:3
 msgid "Minimal Proxy Contract for"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/layout/app.html.eex:33
+msgid "TideBit"
 msgstr ""

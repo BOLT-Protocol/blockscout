@@ -2650,3 +2650,8 @@ msgstr ""
 #: lib/block_scout_web/templates/layout/app.html.eex:33
 msgid "TideBit"
 msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:212
+msgid "Language"
+msgstr ""

@@ -2160,3 +2160,8 @@ msgstr "的最小代理合同"
 #: lib/block_scout_web/templates/layout/app.html.eex:33
 msgid "TideBit"
 msgstr "TideBit 瀏覽器"
+
+#, elixir-format
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:212
+msgid "Language"
+msgstr "zh-tw"

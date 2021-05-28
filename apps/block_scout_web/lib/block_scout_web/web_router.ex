@@ -10,13 +10,10 @@ defmodule BlockScoutWeb.WebRouter do
     plug(:fetch_flash)
     plug(:protect_from_forgery)
     plug :put_secure_browser_headers
-    # plug Cldr.Plug.SetLocale,
-    #      apps:    [cldr: BlockScoutWeb.Cldr, gettext: :global],
-    #      from:    [:query, :path, :body, :cookie, :accept_language],
-    #      param:   "query_params",
-    #      session_key: "cldr_locale"
-    plug Cldr.Plug.AcceptLanguage,
-         cldr_backend: BlockScoutWeb.Cldr
+    plug Cldr.Plug.SetLocale,
+         apps:    [cldr: BlockScoutWeb.Cldr, gettext: :global],
+         from:    [:cookie],
+         param:   "locale"
     plug(BlockScoutWeb.CSPHeader)
     plug(BlockScoutWeb.ChecksumAddress)
   end
@@ -45,6 +42,8 @@ defmodule BlockScoutWeb.WebRouter do
     resources "/blocks", BlockController, only: [:index, :show], param: "hash_or_number" do
       resources("/transactions", BlockTransactionController, only: [:index], as: :transaction)
     end
+
+    get("/hello", LocaleController, :setLocale)
 
     get("/reorgs", BlockController, :reorg, as: :reorg)
 

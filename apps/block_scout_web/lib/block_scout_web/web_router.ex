@@ -43,8 +43,6 @@ defmodule BlockScoutWeb.WebRouter do
       resources("/transactions", BlockTransactionController, only: [:index], as: :transaction)
     end
 
-    get("/hello", LocaleController, :setLocale)
-
     get("/reorgs", BlockController, :reorg, as: :reorg)
 
     get("/uncles", BlockController, :uncle, as: :uncle)

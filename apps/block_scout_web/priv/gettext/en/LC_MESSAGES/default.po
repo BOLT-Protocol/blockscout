@@ -236,6 +236,7 @@ msgstr "TideBit provides analytics data, API, and Smart Contract tools for the %
 #: lib/block_scout_web/templates/chain/show.html.eex:180
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:36
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:40
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:210
 msgid "Blocks"
 msgstr ""
 
@@ -1211,13 +1212,13 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_logs/index.html.eex:14
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:219
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:263
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:243
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:287
 msgid "Search"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:213
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:237
 msgid "Search by address, token symbol name, transaction hash, or block number"
 msgstr ""
 
@@ -1883,7 +1884,7 @@ msgid "Copy Raw Trace"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:217
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:241
 msgid "Search by address, token symbol, name, transaction hash, or block number"
 msgstr ""
 
@@ -2536,7 +2537,7 @@ msgid "Staking"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/layout/_topnav.html.eex:256
+#: lib/block_scout_web/templates/layout/_topnav.html.eex:280
 msgid "Press / and focus will be moved to the search field"
 msgstr ""
 
@@ -2646,7 +2647,7 @@ msgstr ""
 msgid "Minimal Proxy Contract for"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/block_scout_web/templates/layout/app.html.eex:33
 msgid "TideBit"
 msgstr ""
@@ -2655,4 +2656,3 @@ msgstr ""
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:212
 msgid "Language"
 msgstr "en-us"
-

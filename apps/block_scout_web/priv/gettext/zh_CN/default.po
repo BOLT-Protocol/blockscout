@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh\n"
 "X-Generator: Poedit 2.4.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
 
 #: lib/block_scout_web/views/address_token_balance_view.ex:8
 msgid "%{count} token"
@@ -69,7 +69,8 @@ msgid "(query)"
 msgstr "(詢問)"
 
 #: lib/block_scout_web/templates/layout/app.html.eex:179
-msgid "- We're indexing this chain right now. Some of the counts may be inaccurate."
+msgid ""
+"- We're indexing this chain right now. Some of the counts may be inaccurate."
 msgstr "-我們正在為該區塊鏈索引. 一些數據可能不準確."
 
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:73
@@ -93,8 +94,9 @@ msgid "API endpoints for the TideBit"
 msgstr "TideBit API"
 
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:2
+#, fuzzy
 msgid "TideBit Explorer - API"
-msgstr ""
+msgstr "TideBit 瀏覽器"
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:126
 msgid "APIs"
@@ -130,8 +132,13 @@ msgid "All"
 msgstr "全部"
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:15
-msgid "Anything not in this list is not supported. Click on the method to be taken to the documentation for that method, and check the notes section for any potential differences."
-msgstr "不支持此列表中的任何內容. 單擊要轉到該方法文檔的方法,然後檢查“註釋”部分是否存在任何潛在差異."
+msgid ""
+"Anything not in this list is not supported. Click on the method to be taken "
+"to the documentation for that method, and check the notes section for any "
+"potential differences."
+msgstr ""
+"不支持此列表中的任何內容. 單擊要轉到該方法文檔的方法,然後檢查“註釋”部分是否存"
+"在任何潛在差異."
 
 #: lib/block_scout_web/templates/chain/show.html.eex:125
 msgid "Average block time"
@@ -199,7 +206,9 @@ msgid "Block not found, please try again later."
 msgstr "找不到區塊,請稍後再試."
 
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:4
-msgid "BlockScout provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
+msgid ""
+"BlockScout provides analytics data, API, and Smart Contract tools for the "
+"%{subnetwork}"
 msgstr "TideBit 為％{subnetwork}提供分析數據,API和智能合約工具"
 
 #: lib/block_scout_web/templates/chain/show.html.eex:180
@@ -320,7 +329,9 @@ msgid "Contract source code"
 msgstr "合約原始碼"
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:100
-msgid "Contracts that self destruct in their constructors have no contract code published and cannot be verified."
+msgid ""
+"Contracts that self destruct in their constructors have no contract code "
+"published and cannot be verified."
 msgstr "在合約構造函數中的沒有發布的合約程式碼可以驗證."
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:80
@@ -442,8 +453,12 @@ msgid "Displaying the init data provided of the creating transaction."
 msgstr "顯示創建事務提供的初始化數據."
 
 #: lib/block_scout_web/templates/transaction/not_found.html.eex:22
-msgid "During times when the network is busy (i.e during ICOs) it can take a while for your transaction to propagate through the network and for us to index it."
-msgstr "在網絡繁忙期間（即在ICO期間）,您的交易可能需要一段時間才能通過網絡傳播,我們需要為它建立索引."
+msgid ""
+"During times when the network is busy (i.e during ICOs) it can take a while "
+"for your transaction to propagate through the network and for us to index it."
+msgstr ""
+"在網絡繁忙期間（即在ICO期間）,您的交易可能需要一段時間才能通過網絡傳播,我們需"
+"要為它建立索引."
 
 #: lib/block_scout_web/views/transaction_view.ex:148
 msgid "ERC-20 "
@@ -560,8 +575,15 @@ msgid "Fetching tokens..."
 msgstr "正在獲取代幣..."
 
 #: lib/block_scout_web/templates/admin/dashboard/index.html.eex:16
-msgid "For any existing contracts in the database, insert all ABI entries into the contract_methods table. Use this in case you have verified smart contracts before early March 2019 and you want other contracts with the same functions to show those ABI's as candidate matches."
-msgstr "對於數據庫中任何現有合同,請將所有ABI條目插入contract_methods表中. 如果您在2019年3月上旬之前已經驗證了智能合約,並且希望其他具有相同功能的合約將這些ABI顯示為候選匹配,請使用此選項."
+msgid ""
+"For any existing contracts in the database, insert all ABI entries into the "
+"contract_methods table. Use this in case you have verified smart contracts "
+"before early March 2019 and you want other contracts with the same functions "
+"to show those ABI's as candidate matches."
+msgstr ""
+"對於數據庫中任何現有合同,請將所有ABI條目插入contract_methods表中. 如果您在"
+"2019年3月上旬之前已經驗證了智能合約,並且希望其他具有相同功能的合約將這些ABI顯"
+"示為候選匹配,請使用此選項."
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:46
 msgid "Forked Blocks (Reorgs)"
@@ -612,13 +634,15 @@ msgid "However, in general, the"
 msgstr "一般而言"
 
 #: lib/block_scout_web/templates/transaction/_decoded_input.html.eex:18
-msgid "IMPORTANT: This information is a best guess based on similar functions from other verified contracts."
+msgid ""
+"IMPORTANT: This information is a best guess based on similar functions from "
+"other verified contracts."
 msgstr "重要說明：此信息是根據其他已驗證合約的相似功能得出的最佳猜測."
 
 #: lib/block_scout_web/templates/internal_transaction/_tile.html.eex:38
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:72
 msgid "IN"
-msgstr "IN"
+msgstr ""
 
 #: lib/block_scout_web/templates/transaction/_emission_reward_tile.html.eex:8
 #: lib/block_scout_web/views/transaction_view.ex:263
@@ -688,7 +712,7 @@ msgstr "此交易尚待確認."
 #: lib/block_scout_web/views/address_token_transfer_view.ex:8
 #: lib/block_scout_web/views/address_transaction_view.ex:8
 msgid "To"
-msgstr "To"
+msgstr ""
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:25
 msgid "Toggle navigation"
@@ -744,7 +768,9 @@ msgid "Transaction"
 msgstr "交易"
 
 #: lib/block_scout_web/templates/transaction/not_found.html.eex:12
-msgid "If you have just submitted this transaction please wait for at least 30 seconds before refreshing this page."
+msgid ""
+"If you have just submitted this transaction please wait for at least 30 "
+"seconds before refreshing this page."
 msgstr "如果您剛剛送出了此交易,請等待至少30秒鐘,然後刷新此頁面."
 
 #: lib/block_scout_web/templates/log/_data_decoded_view.html.eex:6
@@ -770,7 +796,9 @@ msgid "Inventory"
 msgstr "存貨"
 
 #: lib/block_scout_web/templates/transaction/not_found.html.eex:16
-msgid "It could still be in the TX Pool of a different node, waiting to be broadcasted."
+msgid ""
+"It could still be in the TX Pool of a different node, waiting to be "
+"broadcasted."
 msgstr "它可能仍在其他節點的TX池中,等待廣播."
 
 #: lib/block_scout_web/templates/address/overview.html.eex:106
@@ -893,7 +921,7 @@ msgstr "新的智能合約驗證"
 #: lib/block_scout_web/templates/address_contract_verification/new.html.eex:141
 #: lib/block_scout_web/templates/stakes/_rows.html.eex:24
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #: lib/block_scout_web/templates/internal_transaction/_tile.html.eex:36
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:68
@@ -1131,23 +1159,34 @@ msgid "There was a problem loading the chart."
 msgstr "加載圖表時出現問題."
 
 #: lib/block_scout_web/templates/api_docs/index.html.eex:6
-msgid "This API is provided for developers transitioning their applications from Etherscan to BlockScout. It supports GET and POST requests."
-msgstr "為開發人員提供了該API,以將其應用程序從Etherscan轉換為BlockScout. 它支持GET和POST請求."
+msgid ""
+"This API is provided for developers transitioning their applications from "
+"Etherscan to BlockScout. It supports GET and POST requests."
+msgstr ""
+"為開發人員提供了該API,以將其應用程序從Etherscan轉換為BlockScout. 它支持GET和"
+"POST請求."
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:7
-msgid "This API is provided to support some rpc methods in the exact format specified for ethereum nodes, which can be found "
-msgstr "提供此API的目的是為以太坊節點指定的確切格式支持某些rpc方法,可以找到該方法 "
+msgid ""
+"This API is provided to support some rpc methods in the exact format "
+"specified for ethereum nodes, which can be found "
+msgstr ""
+"提供此API的目的是為以太坊節點指定的確切格式支持某些rpc方法,可以找到該方法 "
 
 #: lib/block_scout_web/views/block_transaction_view.ex:11
 msgid "This block has not been processed yet."
 msgstr "該區塊尚未處理."
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:10
-msgid "This is useful to allow sending requests to blockscout without having to change anything about the request."
+msgid ""
+"This is useful to allow sending requests to blockscout without having to "
+"change anything about the request."
 msgstr "這對於允許將請求發送到blockcout而不用更改請求的內容很有用."
 
 #: lib/block_scout_web/templates/transaction/_decoded_input.html.eex:19
-msgid "To have guaranteed accuracy, use the link above to verify the contract's source code."
+msgid ""
+"To have guaranteed accuracy, use the link above to verify the contract's "
+"source code."
 msgstr "為了保證準確性,請使用上面的鏈接來驗證合約的原始碼."
 
 #: lib/block_scout_web/templates/address_logs/_logs.html.eex:6
@@ -1226,7 +1265,9 @@ msgid "Unique Token"
 msgstr "唯一代幣"
 
 #: lib/block_scout_web/templates/layout/_network_selector.html.eex:12
-msgid "Use the search box to find a hosted network, or select from the list of available networks below."
+msgid ""
+"Use the search box to find a hosted network, or select from the list of "
+"available networks below."
 msgstr "使用搜索框查找託管網絡,或從下面的可用網絡列表中選擇."
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:280
@@ -1302,7 +1343,9 @@ msgid "View More Transfers"
 msgstr "查看更多轉賬"
 
 #: lib/block_scout_web/templates/address/_metatags.html.eex:8
-msgid "View the account balance, transactions, and other data for %{address} on the %{network}"
+msgid ""
+"View the account balance, transactions, and other data for %{address} on the "
+"%{network}"
 msgstr "查看%{network}上%{address}的帳戶餘額,交易和其他數據"
 
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:112
@@ -1326,7 +1369,7 @@ msgstr "是的"
 
 #: lib/block_scout_web/templates/address/overview.html.eex:126
 msgid "at"
-msgstr "at"
+msgstr ""
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:12
 msgid "custom RPC"
@@ -1352,7 +1395,7 @@ msgstr "不是有效的交易雜湊"
 
 #: lib/block_scout_web/templates/common_components/_pagination_container.html.eex:41
 msgid "of"
-msgstr "of"
+msgstr ""
 
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:58
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:69
@@ -1399,8 +1442,12 @@ msgid "Gas"
 msgstr "燃料"
 
 #: lib/block_scout_web/templates/transaction/not_found.html.eex:26
-msgid "If it still does not show up after 1 hour, please check with your sender/exchange/wallet/transaction provider for additional information."
-msgstr "如果一小時後仍然沒有顯示,請與您的發件人/交易所/錢包/交易提供商聯繫以獲取更多信息."
+msgid ""
+"If it still does not show up after 1 hour, please check with your sender/"
+"exchange/wallet/transaction provider for additional information."
+msgstr ""
+"如果一小時後仍然沒有顯示,請與您的發件人/交易所/錢包/交易提供商聯繫以獲取更多"
+"信息."
 
 #: lib/block_scout_web/templates/layout/app.html.eex:29
 msgid "Indexing Tokens"
@@ -1566,15 +1613,20 @@ msgid "Copy Raw Trace"
 msgstr "複製原始跟踪"
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:241
-msgid "Search by address, token symbol, name, transaction hash, or block number"
+msgid ""
+"Search by address, token symbol, name, transaction hash, or block number"
 msgstr "按地址,代幣符號,名稱,交易雜湊或區塊編號搜索"
 
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:11
-msgid "All functions displayed below are from ABI of that contract. In order to verify current contract, proceed with"
+msgid ""
+"All functions displayed below are from ABI of that contract. In order to "
+"verify current contract, proceed with"
 msgstr "下面顯示的所有功能均來自該合同的ABI. 為了驗證當前合約,請繼續"
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:20
-msgid "All metadata displayed below is from that contract. In order to verify current contract, click"
+msgid ""
+"All metadata displayed below is from that contract. In order to verify "
+"current contract, click"
 msgstr "下面顯示的所有元數據均來自該合同. 為了驗證當前合約,請點擊"
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:20
@@ -1601,7 +1653,9 @@ msgid_plural "%{blocks} blocks"
 msgstr[0] "%{blocks} 區塊"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:40
-msgid " Working Stake Amount is an amount which is accounted and working at the current staking epoch."
+msgid ""
+" Working Stake Amount is an amount which is accounted and working at the "
+"current staking epoch."
 msgstr " 工作權益金額是在當前權益紀元中已記賬和工作的金額."
 
 #: lib/block_scout_web/templates/stakes/_rows.html.eex:26
@@ -1611,24 +1665,43 @@ msgstr "(無效池)"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:76
 msgid ""
-"<p>Pending stake (stake placed on a candidate pool or placed during the current staking epoch) may be withdrawn now.</p>\n"
-"        <p>Active stake (stake available after the current epoch) can be ordered for withdrawal from the pool, and will be available to claim after the current staking epoch is complete.</p>\n"
-"        <p>If you have already ordered (and the staking window is still open), you may increase your current order by entering a positive value, or decrease your current order by entering a negative value in the box and clicking 'Order Withdrawal'. You must either keep the minimum stake amount in the pool, or order your entire stake for withdrawal.</p>\n"
+"<p>Pending stake (stake placed on a candidate pool or placed during the "
+"current staking epoch) may be withdrawn now.</p>\n"
+"        <p>Active stake (stake available after the current epoch) can be "
+"ordered for withdrawal from the pool, and will be available to claim after "
+"the current staking epoch is complete.</p>\n"
+"        <p>If you have already ordered (and the staking window is still "
+"open), you may increase your current order by entering a positive value, or "
+"decrease your current order by entering a negative value in the box and "
+"clicking 'Order Withdrawal'. You must either keep the minimum stake amount "
+"in the pool, or order your entire stake for withdrawal.</p>\n"
 msgstr ""
-"<p>懸而未決的股份（放置在候選者池中或在當前權益時期內放置）現在可以撤回.</p> \n"
+"<p>懸而未決的股份（放置在候選者池中或在當前權益時期內放置）現在可以撤回.</"
+"p> \n"
 " <p>活動權益（在當前時期之後可用的權益）可以被命令從中退出. </p> \n"
-" <p>如果您已經訂購（並且放樣窗口仍處於打開狀態）,則可以通過輸入一個 正值,或通過在框中輸入負值並單擊“取款”來減少當前訂單. 您必須將最低注額保持在池中,或訂購全部注額以提款.</p> \n"
+" <p>如果您已經訂購（並且放樣窗口仍處於打開狀態）,則可以通過輸入一個 正值,或通"
+"過在框中輸入負值並單擊“取款”來減少當前訂單. 您必須將最低注額保持在池中,或訂購"
+"全部注額以提款.</p> \n"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_become_candidate.html.eex:32
 msgid ""
-"<p>To become a candidate, your staking address must be funded with %{tokenSymbol} tokens <strong>and</strong> %{coinSymbol} coins, and your OpenEthereum node must be active and configured with the mining address you specify here.</p>\n"
-"      <p>To become a delegator, close this window and select an address from the list of pools you would like to place stake on. Click the <strong>Stake</strong> button next to the address to begin the process.</p>"
+"<p>To become a candidate, your staking address must be funded with "
+"%{tokenSymbol} tokens <strong>and</strong> %{coinSymbol} coins, and your "
+"OpenEthereum node must be active and configured with the mining address you "
+"specify here.</p>\n"
+"      <p>To become a delegator, close this window and select an address from "
+"the list of pools you would like to place stake on. Click the <strong>Stake</"
+"strong> button next to the address to begin the process.</p>"
 msgstr ""
-"<p>要成為候選人,您的抵押地址必須由％{tokenSymbol}個代幣<strong>和</strong>％{coinSymbol}個代幣提供資金,並且您的OpenEthereum節點必須處於活動狀態並使用您在此處指定的挖掘地址進行配置 </p> \n"
-" <p>要成為委派者,請關閉此窗口,然後從要放樣的池列表中選擇一個地址. 點擊地址旁邊的<strong>權益</strong>按鈕以開始該過程.</p>"
+"<p>要成為候選人,您的抵押地址必須由％{tokenSymbol}個代幣<strong>和</strong>"
+"％{coinSymbol}個代幣提供資金,並且您的OpenEthereum節點必須處於活動狀態並使用您"
+"在此處指定的挖掘地址進行配置 </p> \n"
+" <p>要成為委派者,請關閉此窗口,然後從要放樣的池列表中選擇一個地址. 點擊地址旁"
+"邊的<strong>權益</strong>按鈕以開始該過程.</p>"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:24
-msgid "All pool participant addresses. The top address belongs to the %{pool_type}."
+msgid ""
+"All pool participant addresses. The top address belongs to the %{pool_type}."
 msgstr "所有池參與者地址. 最高地址屬於%{pool_type}"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:27
@@ -1670,7 +1743,9 @@ msgid "Block number"
 msgstr "區塊"
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:10
-msgid "Candidate and Validator Pool Addresses. Current validator pools are specified by a checkmark."
+msgid ""
+"Candidate and Validator Pool Addresses. Current validator pools are "
+"specified by a checkmark."
 msgstr "候選者和驗證者池地址. 當前的驗證程序池由複選標記指定."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_pool_info.html.eex:31
@@ -1738,7 +1813,9 @@ msgid "How Many Times this Address has been a Validator"
 msgstr "此地址多少次已成為驗證者"
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:12
-msgid "Inactive Pool Addresses. Current validator pools are specified by a checkmark."
+msgid ""
+"Inactive Pool Addresses. Current validator pools are specified by a "
+"checkmark."
 msgstr "非活動池地址. 當前的驗證程序池由複選標記指定."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:122
@@ -1857,12 +1934,28 @@ msgid "Stake More"
 msgstr "下注更多"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_move.html.eex:64
-msgid "Stake placed on a candidate pool or an active validator pool <strong>during the current staking epoch</strong> can be moved from one pool to another. Active stake cannot be moved. To re-delegate active stake: order a withdrawal, claim the amount on the next staking epoch, and stake the amount on a different pool."
-msgstr "可以將<strong>當前放樣時期</strong>中候選池或活動驗證者池上的放樣從一個池移到另一個池. 當前的股份不能移動. 要重新委派活動的股份,請下令提款,在下一個賭注時期申領金額,然後在其他池中存款."
+msgid ""
+"Stake placed on a candidate pool or an active validator pool <strong>during "
+"the current staking epoch</strong> can be moved from one pool to another. "
+"Active stake cannot be moved. To re-delegate active stake: order a "
+"withdrawal, claim the amount on the next staking epoch, and stake the amount "
+"on a different pool."
+msgstr ""
+"可以將<strong>當前放樣時期</strong>中候選池或活動驗證者池上的放樣從一個池移到"
+"另一個池. 當前的股份不能移動. 要重新委派活動的股份,請下令提款,在下一個賭注時"
+"期申領金額,然後在其他池中存款."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_stake.html.eex:53
-msgid "Stake placed on a pool is <strong>pending</strong> for the current staking epoch. It will be applied to the next staking epoch. You may withdraw or move pending stake at any time until it becomes active. Once active (the pool you staked with becomes a validator), a withdrawal order can be placed. This amount will be available to claim after that staking epoch is complete."
-msgstr "當前放樣時期,放置在池中的放樣<strong>待定</strong>, 它將應用於下一個抵押期. 您可以隨時撤回或轉移待處理的股份,直到其生效為止. 一旦激活（放樣的池成為驗證器）,就可以下達提款單. 抵押期完成後,可以申請這筆款項."
+msgid ""
+"Stake placed on a pool is <strong>pending</strong> for the current staking "
+"epoch. It will be applied to the next staking epoch. You may withdraw or "
+"move pending stake at any time until it becomes active. Once active (the "
+"pool you staked with becomes a validator), a withdrawal order can be placed. "
+"This amount will be available to claim after that staking epoch is complete."
+msgstr ""
+"當前放樣時期,放置在池中的放樣<strong>待定</strong>, 它將應用於下一個抵押期. "
+"您可以隨時撤回或轉移待處理的股份,直到其生效為止. 一旦激活（放樣的池成為驗證"
+"器）,就可以下達提款單. 抵押期完成後,可以申請這筆款項."
 
 #: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:45
 #: lib/block_scout_web/templates/stakes/_stakes_stats_item_account.html.eex:46
@@ -1900,31 +1993,46 @@ msgid "The amount can be claimed after the current epoch finishes."
 msgstr "可以在當前紀元結束后索取該金額."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:23
-msgid "The first amount is the candidate’s own stake, the second is the total amount staked into the pool by the candidate and all delegators."
-msgstr "第一個數字是候選人自己的股份,第二個是候選人和所有代表向賭注中投入的總額."
+msgid ""
+"The first amount is the candidate’s own stake, the second is the total "
+"amount staked into the pool by the candidate and all delegators."
+msgstr ""
+"第一個數字是候選人自己的股份,第二個是候選人和所有代表向賭注中投入的總額."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:25
-msgid "The first amount is the pool owner’s stake, the second is the total amount staked into the pool by the pool owner and all delegators."
+msgid ""
+"The first amount is the pool owner’s stake, the second is the total amount "
+"staked into the pool by the pool owner and all delegators."
 msgstr "第一個是池所有者的股份,第二個是池所有者和所有委託人投入到池中的總金額."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:21
-msgid "The first amount is the validator’s own stake, the second is the total amount staked into the pool by the validator and all delegators."
+msgid ""
+"The first amount is the validator’s own stake, the second is the total "
+"amount staked into the pool by the validator and all delegators."
 msgstr "第一個是驗證者自己的股份,第二個是驗證者和所有委託人投入到池中的總金額."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:43
-msgid "The number of delegators providing stake to the pool. Click on the number to see more details."
+msgid ""
+"The number of delegators providing stake to the pool. Click on the number to "
+"see more details."
 msgstr "向池中提供賭注的委派人數. 單擊該數字以查看更多詳細信息."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:34
-msgid "The percentage of stake in a single pool relative to the total amount staked in all active pools. A higher ratio results in a greater likelihood of validator pool selection."
-msgstr "單個池中的權益相對於所有活動池中的權益總額的百分比. 比率越高,選擇驗證者池的可能性就越大."
+msgid ""
+"The percentage of stake in a single pool relative to the total amount staked "
+"in all active pools. A higher ratio results in a greater likelihood of "
+"validator pool selection."
+msgstr ""
+"單個池中的權益相對於所有活動池中的權益總額的百分比. 比率越高,選擇驗證者池的可"
+"能性就越大."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:102
 msgid "The rest addresses are delegators of its pool."
 msgstr "其餘地址是其池的委託人."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:29
-msgid "The staking epochs for which the reward could be claimed (read-only field):"
+msgid ""
+"The staking epochs for which the reward could be claimed (read-only field):"
 msgstr "可要求獎勵的籌碼時代（只讀字段）:"
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:58
@@ -1932,8 +2040,15 @@ msgid "The table refreshed <span></span> block(s) ago."
 msgstr "該表在<span> </span>塊之前刷新."
 
 #: lib/block_scout_web/templates/stakes/_stakes_empty_content.html.eex:12
-msgid "There is no information currently available for this view. Deselect filters or choose another pool view to see current info. To participate as a delegator, select a pool address and click the Stake icon. To become a candidate, click the button below."
-msgstr "當前沒有可用於此視圖的信息. 取消選擇過濾器或選擇其他池視圖以查看當前信息. 要作為委派者參加,請選擇一個池地址,然後單擊Stake圖標. 要成為候選人,請點擊下面的按鈕."
+msgid ""
+"There is no information currently available for this view. Deselect filters "
+"or choose another pool view to see current info. To participate as a "
+"delegator, select a pool address and click the Stake icon. To become a "
+"candidate, click the button below."
+msgstr ""
+"當前沒有可用於此視圖的信息. 取消選擇過濾器或選擇其他池視圖以查看當前信息. 要"
+"作為委派者參加,請選擇一個池地址,然後單擊Stake圖標. 要成為候選人,請點擊下面的"
+"按鈕."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:99
 msgid "This is a %{pool_type}."
@@ -1944,7 +2059,8 @@ msgid "This is a validator"
 msgstr "這是一個驗證者"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_pool_info.html.eex:15
-msgid "This pool is banned until block #%{banned_until} (%{estimated_unban_day})"
+msgid ""
+"This pool is banned until block #%{banned_until} (%{estimated_unban_day})"
 msgstr "禁止該池,直到塊#%{banned_until}（%{estimated_unban_day}）"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:48
@@ -1974,8 +2090,13 @@ msgid "Validator Pool Addresses."
 msgstr "驗證程序池地址."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:32
-msgid "Validator pools can be banned for misbehavior (such as not revealing secret numbers). Validator and delegator stake contained in a banned pool cannot be withdrawn until the ban is over."
-msgstr "可以禁止驗證程序池出現不當行為（例如不透露秘密數字）. 在禁令結束之前,不能撤回包含在禁令池中的驗證人和代表人股份."
+msgid ""
+"Validator pools can be banned for misbehavior (such as not revealing secret "
+"numbers). Validator and delegator stake contained in a banned pool cannot be "
+"withdrawn until the ban is over."
+msgstr ""
+"可以禁止驗證程序池出現不當行為（例如不透露秘密數字）. 在禁令結束之前,不能撤回"
+"包含在禁令池中的驗證人和代表人股份."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:2
 msgid "We found the following pools you can claim reward from:"
@@ -1990,11 +2111,14 @@ msgid "Withdraw Now"
 msgstr "現在提取"
 
 #: lib/block_scout_web/templates/stakes/_rows.html.eex:52
-msgid "Withdraw after block #%{banned_delegators_until} (%{estimated_unban_day})"
+msgid ""
+"Withdraw after block #%{banned_delegators_until} (%{estimated_unban_day})"
 msgstr "在區塊#%{banned_delegators_until}之後提取（%{estimated_unban_day}）"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_claim_withdrawal.html.eex:22
-msgid "Withdrawal orders made during an active staking epoch are available to claim after the epoch is complete."
+msgid ""
+"Withdrawal orders made during an active staking epoch are available to claim "
+"after the epoch is complete."
 msgstr "在有效放樣時期內完成的提款訂單可在該時期完成后索取."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:32
@@ -2011,16 +2135,26 @@ msgid "You Staked:"
 msgstr "您下注:"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward.html.eex:11
-msgid "You can get your reward for all staking epochs during which the pool was a validator or specify separate epochs if <b>Tx Gas Limit</b> is too high. <b>Tx Gas Limit</b> depends on how long the pool was a validator and how many staking epochs you held your stake in the pool without movement."
-msgstr "如果<b> Tx Gas Limit </b>（Tx氣體限制）</b>太高,則可以在池作為驗證者的所有下注時期獲得獎勵,也可以指定單獨的時期. <b> Tx Gas Limit </b>取決於該池是一個驗證程序的時間,以及您在池中持股數不動的幾下紀元."
+msgid ""
+"You can get your reward for all staking epochs during which the pool was a "
+"validator or specify separate epochs if <b>Tx Gas Limit</b> is too high. "
+"<b>Tx Gas Limit</b> depends on how long the pool was a validator and how "
+"many staking epochs you held your stake in the pool without movement."
+msgstr ""
+"如果<b> Tx Gas Limit </b>（Tx氣體限制）</b>太高,則可以在池作為驗證者的所有下"
+"注時期獲得獎勵,也可以指定單獨的時期. <b> Tx Gas Limit </b>取決於該池是一個驗"
+"證程序的時間,以及您在池中持股數不動的幾下紀元."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_withdraw.html.eex:52
 msgid "You can withdraw this amount right now."
 msgstr "您可以立即提取此金額."
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_pool_info.html.eex:22
-msgid "You will be able to withdraw after block #%{banned_delegators_until} (%{estimated_unban_day})"
-msgstr "您將可以在區塊 #%{banned_delegators_until}（%{estimated_unban_day}）之後退出"
+msgid ""
+"You will be able to withdraw after block #%{banned_delegators_until} "
+"(%{estimated_unban_day})"
+msgstr ""
+"您將可以在區塊 #%{banned_delegators_until}（%{estimated_unban_day}）之後退出"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_claim_reward_content.html.eex:43
 msgid "You will receive:"
@@ -2069,8 +2203,11 @@ msgstr "抵押"
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:18
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:9
-msgid "Contract is not verified. However, we found a verified contract with the same bytecode in Blockscout DB"
-msgstr "合同未經驗證. 但是,我們在Blockscout DB中找到了具有相同字節碼的經過驗證的合同"
+msgid ""
+"Contract is not verified. However, we found a verified contract with the "
+"same bytecode in Blockscout DB"
+msgstr ""
+"合同未經驗證. 但是,我們在Blockscout DB中找到了具有相同字節碼的經過驗證的合同"
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:162
 msgid "Staking"
@@ -2098,7 +2235,9 @@ msgid "Potential Reward Share"
 msgstr "潛在獎勵分享"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:58
-msgid "Reward distribution is based on stake amount. Validator receives at least %{min}% of the pool reward."
+msgid ""
+"Reward distribution is based on stake amount. Validator receives at least "
+"%{min}% of the pool reward."
 msgstr "獎勵分配基於權益數量. 驗證者至少獲得總獎勵的%{min}% ."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:39
@@ -2115,12 +2254,24 @@ msgid "N/A"
 msgstr "N/A"
 
 #: lib/block_scout_web/templates/stakes/_stakes_modal_delegators_list.html.eex:77
-msgid "Approximate Current Annual Percentage Yield. If you see N/A, please reopen the popup in a few blocks (APY cannot be calculated at the very beginning of a staking epoch). Predicted Reward is the amount of %{symbol} a participant will receive for staking and can claim once the current epoch ends."
-msgstr "當前的年平均收益率近似值. 如果看到N / A,請重新打開彈出框（在一個開始時期就無法計算APY）. 預計獎勵是參與者將獲得的％{symbol}的金額,並可以在當前時期結束後提出要求."
+msgid ""
+"Approximate Current Annual Percentage Yield. If you see N/A, please reopen "
+"the popup in a few blocks (APY cannot be calculated at the very beginning of "
+"a staking epoch). Predicted Reward is the amount of %{symbol} a participant "
+"will receive for staking and can claim once the current epoch ends."
+msgstr ""
+"當前的年平均收益率近似值. 如果看到N / A,請重新打開彈出框（在一個開始時期就無"
+"法計算APY）. 預計獎勵是參與者將獲得的％{symbol}的金額,並可以在當前時期結束後"
+"提出要求."
 
 #: lib/block_scout_web/templates/stakes/_table.html.eex:39
-msgid "Approximate Current Annual Percentage Yield. If you see N/A, please wait for a few blocks (APY cannot be calculated at the very beginning of a staking epoch)."
-msgstr "當前的年平均收益率近似值. 如果看到“不適用”,請等待幾個步驟（無法在固定時間開始時計算APY）."
+msgid ""
+"Approximate Current Annual Percentage Yield. If you see N/A, please wait for "
+"a few blocks (APY cannot be calculated at the very beginning of a staking "
+"epoch)."
+msgstr ""
+"當前的年平均收益率近似值. 如果看到“不適用”,請等待幾個步驟（無法在固定時間開始"
+"時計算APY）."
 
 #: lib/block_scout_web/templates/bridged_tokens/index.html.eex:6
 msgid "Bridged Tokens from "
@@ -2147,7 +2298,9 @@ msgid "Trade STAKE on BitMax"
 msgstr "在BitMax上交易STAKE"
 
 #: lib/block_scout_web/templates/common_components/_minimal_proxy_pattern.html.eex:9
-msgid " - minimal bytecode implementation that delegates all calls to a known address"
+msgid ""
+" - minimal bytecode implementation that delegates all calls to a known "
+"address"
 msgstr " -最小的字節碼實現,可將所有調用委派給已知地址"
 
 #: lib/block_scout_web/templates/common_components/_minimal_proxy_pattern.html.eex:6
@@ -2164,4 +2317,4 @@ msgstr "TideBit 瀏覽器"
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:212
 msgid "Language"
-msgstr "zh-tw"
+msgstr "zh-cn"

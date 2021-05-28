@@ -310,6 +310,9 @@
       case 'zh-tw':
         _locale = 'zh'
         break;
+      case 'zh-cn':
+        _locale = 'zh-Hant-HK'
+        break;
       case 'en-us':
         _locale = 'en'
         break;

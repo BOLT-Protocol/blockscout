@@ -5,7 +5,7 @@ defmodule BlockScoutWeb.Cldr do
 
   use Cldr,
     default_locale: "en",
-    locales: ["en", "zh", "zh-Hans"],
+    locales: ["en", "zh", "zh-Hant-HK"],
     gettext: BlockScoutWeb.Gettext,
     generate_docs: false,
     precompile_number_formats: ["#,###", "#,##0.##################", "#.#%", "#,##0"],

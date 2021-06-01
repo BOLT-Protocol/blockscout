@@ -1,4 +1,17 @@
 <h1 align="center">BlockScout</h1>
+
+## 多國語系
+
+'/blockscout/apps/block_scout_web/priv/gettext/${locale}/LC_MESSAGES'
+
+這邊會發現簡體中文的 locale 我建立在 `fr` 資料夾上，原因是因為這邊使用 `zh-Hans` 或 `zh-Hans-HK` 等字眼時
+
+在下
+
+`cd apps/block_scout_web; mix gettext.extract --merge; cd -`
+
+編譯時都會出錯，所以這邊使用 `fr` 來代替
+
 <p align="center">Blockchain Explorer for inspecting and analyzing EVM Chains.</p>
 <div align="center">
 

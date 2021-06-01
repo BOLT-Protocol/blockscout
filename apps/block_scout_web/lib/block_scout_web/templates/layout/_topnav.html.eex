@@ -215,11 +215,9 @@
               <%= link to: @conn.request_path, onclick: "setLocale(this)", class: "dropdown-item locale" do %>
                 zh-tw
               <% end %>
-              <!--
               <%= link to: @conn.request_path, onclick: "setLocale(this)",class: "dropdown-item locale" do %>
                 zh-cn
               <% end %>
-              -->
               <%= link to: @conn.request_path, onclick: "setLocale(this)",class: "dropdown-item locale" do %>
                 en-us
               <% end %>
@@ -313,7 +311,7 @@
         _locale = 'zh';
         break;
       case 'zh-cn':
-        _locale = 'zh-Hans-HK';
+        _locale = 'fr';
         break;
       case 'en-us':
         _locale = 'en';

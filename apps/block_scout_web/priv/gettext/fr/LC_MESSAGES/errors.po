@@ -1,0 +1,94 @@
+## This file is a PO Template file.
+##
+## `msgid`s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run `mix gettext.extract` to bring this file up to
+## date. Leave `msgstr`s empty as changing them here as no
+## effect: edit them in PO (`.po`) files instead.
+## From Ecto.Changeset.cast/4
+msgid "can't be blank"
+msgstr "不能空白"
+
+## From Ecto.Changeset.unique_constraint/3
+msgid "has already been taken"
+msgstr "has already been taken"
+
+## From Ecto.Changeset.put_change/3
+msgid "is invalid"
+msgstr "是无效的"
+
+## From Ecto.Changeset.validate_acceptance/3
+msgid "must be accepted"
+msgstr "必须被接受"
+
+## From Ecto.Changeset.validate_format/3
+msgid "has invalid format"
+msgstr "格式无效"
+
+## From Ecto.Changeset.validate_subset/3
+msgid "has an invalid entry"
+msgstr "输入无效"
+
+## From Ecto.Changeset.validate_exclusion/3
+msgid "is reserved"
+msgstr "被预定了"
+
+## From Ecto.Changeset.validate_confirmation/3
+msgid "does not match confirmation"
+msgstr "与确认不符"
+
+## From Ecto.Changeset.no_assoc_constraint/3
+msgid "is still associated with this entry"
+msgstr "仍与此条目相关联"
+
+msgid "are still associated with this entry"
+msgstr "仍与此条目相关联"
+
+## From Ecto.Changeset.validate_length/3
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] "應該是%{count}個字符"
+msgstr[1] "應該是%{count}個字符"
+
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] "應該有%{count}個項目"
+msgstr[1] "應該有%{count}個項目"
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] "至少應為%{count}個字符"
+msgstr[1] "至少應為%{count}個字符"
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] "應該至少有%{count}個項目"
+msgstr[1] "應該至少有%{count}個項目"
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] "最多應為%{count}個字符"
+msgstr[1] "最多應為%{count}個字符"
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] "最多應有%{count}個項目"
+msgstr[1] "最多應有%{count}個項目"
+
+## From Ecto.Changeset.validate_number/3
+msgid "must be less than %{number}"
+msgstr "小于必须小于%{number}"
+
+msgid "must be greater than %{number}"
+msgstr "必须大于%{number}"
+
+msgid "must be less than or equal to %{number}"
+msgstr "必须小于或等于%{number}"
+
+msgid "must be greater than or equal to %{number}"
+msgstr "必须大于或等于%{number}"
+
+msgid "must be equal to %{number}"
+msgstr "必须等于%{number}"

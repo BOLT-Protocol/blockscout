@@ -8,9 +8,8 @@ function getCookie(name) {
   if (parts.length === 2) return parts.pop().split(';').shift();
 }
 
-let locale = getCookie('locale') 
-
-if (!locale) document.cookie.locale = locale
+let locale = getCookie('locale')
+if (!locale) document.cookie = `locale=en`;
 
 moment.locale(locale)
 numeral.locale('en')

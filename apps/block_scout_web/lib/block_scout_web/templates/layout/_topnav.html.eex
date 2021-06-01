@@ -215,9 +215,11 @@
               <%= link to: @conn.request_path, onclick: "setLocale(this)", class: "dropdown-item locale" do %>
                 zh-tw
               <% end %>
+              <!--
               <%= link to: @conn.request_path, onclick: "setLocale(this)",class: "dropdown-item locale" do %>
                 zh-cn
               <% end %>
+              -->
               <%= link to: @conn.request_path, onclick: "setLocale(this)",class: "dropdown-item locale" do %>
                 en-us
               <% end %>
@@ -304,22 +306,22 @@
   }
 
   const setLocale = (link) => {
-    let _locale = 'en'
+    let _locale = 'en';
 
     switch (link.innerText) {
       case 'zh-tw':
-        _locale = 'zh'
+        _locale = 'zh';
         break;
       case 'zh-cn':
-        _locale = 'zh-Hant-HK'
+        _locale = 'zh-Hans-HK';
         break;
       case 'en-us':
-        _locale = 'en'
+        _locale = 'en';
         break;
       default:
-        _locale = 'en'
+        _locale = 'en';
     }
 
-    document.cookie = `locale=${_locale}`
+    document.cookie = `locale=${_locale}`;
   }
 </script> 

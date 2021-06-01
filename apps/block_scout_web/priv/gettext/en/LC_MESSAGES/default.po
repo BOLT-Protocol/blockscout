@@ -12,7 +12,7 @@ msgid_plural "%{count} transactions"
 msgstr[0] ""
 msgstr[1] ""
 
-#, elixir-format
+
 #: lib/block_scout_web/templates/transaction/overview.html.eex:220
 msgid " Token Transfer"
 msgstr ""

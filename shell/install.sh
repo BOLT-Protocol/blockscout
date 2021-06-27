@@ -73,6 +73,10 @@ sudo yum -y install inotify-tools gcc-c++ libtool make git
 ### Install Rust ###
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # source: https://github.com/rust-lang/docker-rust/blob/e9fa22548981365ced90bc22d9173e2cf6b96890/1.53.0/buster/Dockerfile
+RUSTUP_HOME=/usr/local/rustup
+CARGO_HOME=/usr/local/cargo
+PATH=/usr/local/cargo/bin:$PATH
+RUST_VERSION=1.53.0
 RUST_VERSION=1.53.0
 rustArch='x86_64-unknown-linux-gnu'; rustupSha256='3dc5ef50861ee18657f9db2eeb7392f9c2a6c95c90ab41e45ab4ca71476b4338' ;
 url="https://static.rust-lang.org/rustup/archive/1.24.3/${rustArch}/rustup-init"; \

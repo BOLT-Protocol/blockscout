@@ -43,7 +43,7 @@ sudo swapon /swapfile
 echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
 
 ### Install epel-release ###
-sudo yum -y install epel-release
+sudo yum -y install epel-release wget
 
 ### Install Erlang ###
 wget https://packages.erlang-solutions.com/erlang/rpm/centos/7/x86_64/esl-erlang_23.2.1-1~centos~7_amd64.rpm
@@ -53,7 +53,7 @@ sudo yum install -y esl-erlang_23.2.1-1~centos~7_amd64.rpm
 ### Install Elixir ###
 wget https://github.com/elixir-lang/elixir/releases/download/v1.10.0/Precompiled.zip
 sudo yum install -y unzip
-sudo unzip Precompiled.zip -d /opt/elixir
+sudo unzip Precompiled.zip -o /opt/elixir
 sudo echo 'export PATH="$PATH:/opt/elixir/bin"' >> /etc/profile
 source /etc/profile
 
@@ -71,7 +71,20 @@ sudo yum --enablerepo=epel group install -y "Development Tools" gmp-devel
 sudo yum -y install inotify-tools gcc-c++ libtool make git
 
 ### Install Rust ###
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# source: https://github.com/rust-lang/docker-rust/blob/e9fa22548981365ced90bc22d9173e2cf6b96890/1.53.0/buster/Dockerfile
+RUST_VERSION=1.53.0
+rustArch='x86_64-unknown-linux-gnu'; rustupSha256='3dc5ef50861ee18657f9db2eeb7392f9c2a6c95c90ab41e45ab4ca71476b4338' ;
+url="https://static.rust-lang.org/rustup/archive/1.24.3/${rustArch}/rustup-init"; \
+wget "$url"
+echo "${rustupSha256} *rustup-init" | sha256sum -c -
+chmod +x rustup-init
+./rustup-init -y --no-modify-path --profile minimal --default-toolchain $RUST_VERSION --default-host ${rustArch}
+rm rustup-init
+chmod -R a+w $RUSTUP_HOME $CARGO_HOME
+rustup --version
+cargo --version
+rustc --version
 source $HOME/.cargo/env
 
 ### Setup blockscout ###

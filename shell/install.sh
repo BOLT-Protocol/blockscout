@@ -43,7 +43,8 @@ sudo swapon /swapfile
 echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
 
 ### Install epel-release ###
-sudo yum -y install epel-release wget screen
+sudo yum -y install epel-release
+sudo yum install -y wget screen
 
 ### Install Erlang ###
 wget https://packages.erlang-solutions.com/erlang/rpm/centos/7/x86_64/esl-erlang_23.2.1-1~centos~7_amd64.rpm

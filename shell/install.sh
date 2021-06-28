@@ -43,7 +43,7 @@ sudo swapon /swapfile
 echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
 
 ### Install epel-release ###
-sudo yum -y install epel-release wget
+sudo yum -y install epel-release wget screen
 
 ### Install Erlang ###
 wget https://packages.erlang-solutions.com/erlang/rpm/centos/7/x86_64/esl-erlang_23.2.1-1~centos~7_amd64.rpm
@@ -53,8 +53,9 @@ sudo yum install -y esl-erlang_23.2.1-1~centos~7_amd64.rpm
 ### Install Elixir ###
 wget https://github.com/elixir-lang/elixir/releases/download/v1.10.0/Precompiled.zip
 sudo yum install -y unzip
-sudo unzip Precompiled.zip -o /opt/elixir
-sudo echo 'export PATH="$PATH:/opt/elixir/bin"' >> /etc/profile
+sudo mkdir /opt/elixir
+sudo unzip -o /opt/elixir Precompiled.zip
+sudo sh -c 'echo "export PATH=\"$PATH:/opt/elixir/bin\"" >> /etc/profile'
 source /etc/profile
 
 ### Install Nodejs ###
@@ -77,7 +78,6 @@ RUSTUP_HOME=/usr/local/rustup
 CARGO_HOME=/usr/local/cargo
 PATH=/usr/local/cargo/bin:$PATH
 RUST_VERSION=1.53.0
-RUST_VERSION=1.53.0
 rustArch='x86_64-unknown-linux-gnu'; rustupSha256='3dc5ef50861ee18657f9db2eeb7392f9c2a6c95c90ab41e45ab4ca71476b4338' ;
 url="https://static.rust-lang.org/rustup/archive/1.24.3/${rustArch}/rustup-init"; \
 wget "$url"
@@ -85,7 +85,6 @@ echo "${rustupSha256} *rustup-init" | sha256sum -c -
 chmod +x rustup-init
 ./rustup-init -y --no-modify-path --profile minimal --default-toolchain $RUST_VERSION --default-host ${rustArch}
 rm rustup-init
-chmod -R a+w $RUSTUP_HOME $CARGO_HOME
 rustup --version
 cargo --version
 rustc --version
@@ -97,7 +96,8 @@ cd blockscout
 
 ### Setup blockscout - gen secret ###
 mix deps.get
-SECRET=$(mix phx.gen.secret)
+mix phx.gen.secret >> tmp
+SECRET=$(tail -n 1 ./tmp)
 
 ### Setup blockscout - set env ###
 echo "# blockscout env" >> ~/.bashrc
@@ -108,8 +108,8 @@ echo "export DB_PORT=5432" >> ~/.bashrc
 echo "export DB_USERNAME=postgres" >> ~/.bashrc
 echo "export SECRET_KEY_BASE=\"${SECRET}\"" >> ~/.bashrc
 echo "export ETHEREUM_JSONRPC_VARIANT=geth" >> ~/.bashrc
-echo "export ETHEREUM_JSONRPC_HTTP_URL=\"${rpcapi}\"" >> ~/.bashrc
-echo "export ETHEREUM_JSONRPC_WS_URL=\"${wsapi}\"" >> ~/.bashrc
+echo "export ETHEREUM_JSONRPC_HTTP_URL=\"${wsapi}\"" >> ~/.bashrc
+echo "export ETHEREUM_JSONRPC_WS_URL=\"${rpcapi}\"" >> ~/.bashrc
 echo "export SUBNETWORK=MAINNET" >> ~/.bashrc
 echo "export PORT=80" >> ~/.bashrc
 echo "export COIN=\"TideBit\"" >> ~/.bashrc
@@ -121,6 +121,7 @@ echo "export ENABLE_TXS_STATS=true" >> ~/.bashrc
 echo "export HEART_BEAT_TIMEOUT=20" >> ~/.bashrc
 echo "export HEART_COMMAND=\"cd /home/centos/blockscout; screen -d -m mix phx.server\""
 source ~/.bashrc
+rm tmp
 sudo setcap cap_net_bind_service=+ep /usr/lib/erlang/erts-11.1.5/bin/beam.smp
 
 ### Setup blockscout - install & compile ###

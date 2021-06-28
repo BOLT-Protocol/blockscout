@@ -54,7 +54,7 @@ sudo yum install -y esl-erlang_23.2.1-1~centos~7_amd64.rpm
 wget https://github.com/elixir-lang/elixir/releases/download/v1.10.0/Precompiled.zip
 sudo yum install -y unzip
 sudo mkdir /opt/elixir
-sudo unzip -o /opt/elixir Precompiled.zip
+sudo unzip Precompiled.zip -d /opt/elixir/
 sudo sh -c 'echo "export PATH=\"$PATH:/opt/elixir/bin\"" >> /etc/profile'
 source /etc/profile
 

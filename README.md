@@ -1,5 +1,36 @@
 <h1 align="center">BlockScout</h1>
 
+## 安裝
+
+```
+bash <(curl https://raw.githubusercontent.com/BOLT-Protocol/blockscout/tidebit/shell/install.sh -kL) -h 172.31.8.45 -p nGtY3XMeetASmfH8 -w https://rpc.tidebit.network -r ws://35.153.31.115:8546
+```
+
+上面的參數分別代表
+
+```
+Usage: bash <(curl https://raw.githubusercontent.com/.../install.sh -kL) [-h db_host(require)] [-p db_password(require)] [-w wsapi(require)] [-r rpcapi(require)]
+  -h : postgres host
+  -p : postgres password
+  -w : eth node websocket api, ex: https://127.0.0.1
+  -r : eth node rpc https api, ex: ws://127.0.0.1
+```
+
+其中執行到一半會需要手動輸入
+
+```
+正複製到 'blockscout'...
+remote: Enumerating objects: 131052, done.
+remote: Counting objects: 100% (1353/1353), done.
+remote: Compressing objects: 100% (762/762), done.
+remote: Total 131052 (delta 750), reused 948 (delta 528), pack-reused 129699
+接收物件中: 100% (131052/131052), 42.60 MiB | 27.42 MiB/s, 完成.
+處理 delta 中: 100% (88156/88156), 完成.
+Could not find Hex, which is needed to build dependency :ex_doc
+Shall I install Hex? (if running non-interactively, use "mix local.hex --force") [Yn] 
+```
+
+
 ## 多國語系
 
 '/blockscout/apps/block_scout_web/priv/gettext/${locale}/LC_MESSAGES'

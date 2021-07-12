@@ -151,4 +151,4 @@ sudo sed -i "s/localdomain6$/localdomain6 blockscout.local/g" /etc/hosts
 
 ### Setup blockscout - fix Error: ENOSPC
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-screen -d -m mix phx.server
+screen -d -m -L mix phx.server
